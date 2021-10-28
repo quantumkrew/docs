@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>National Youth Screening &amp; Assessment Partners (NYSAP)</title>
+  <meta name="description"
+    content="The National Youth Screening & Assessment Partners (NYSAP) is a technical assistance and research group, dedicated to helping juvenile justice programs identify youths’ needs for behavioral health intervention and risk management.NYSAP has been working with juvenile justice programs nationwide since 2000. We provide training and implementation technical assistance services to agencies and programs in the areas of risk screening and risk-needs assessment, behavioral health screening (including traumatic events and symptoms), and juveniles’ competence to stand trial evaluations. We also provide many other trainings for various stakeholder groups. ">
+  <!--[if lt IE 9]>
+	<script src="assets/html5shiv.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="nysapstyles.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Fira+Sans:400,600|Oleo+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="overlaycontainer">
+      <div class="overlay">
+        <h1><img class="img-fluid" src="home/nysapbanner.svg" title="NYSAP"></h1>
+        <h1>National Youth Screening &amp; Assessment Partners</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="topnav">
+    <a href="index.html" title="Home">Home</a>
+    <a href="about.html" title="About Us">About Us</a>
+    <a href="training.html" title="Trainings">Training</a><a href="on-demand.html" title="On Demand Trainings">On-Demand Trainings</a>
+    <a href="global.html" title="Global Initiatives">Global Initiatives</a>
+    <a href="publications/index.html" title="Publications">Publications</a>
+    <a href="news.html" title="News &amp; Events">News &amp; Events</a>
+    <a href="partners.html" title="Partners">Collaborators</a>
+    <a href="contact.html" title="Contact and TA">Contact Us</a>
+  </div>
+
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="cardblock">
+        <h2>Additional Links</h2>
+        <ul class="sidenav">
+          <a href="risk.html" title="Risk Screening & Assessment">
+            <li class="sidenavlink">Risk Screening &amp; Assessment</li>
+          </a>
+          <a href="behavioral.html" title="Behavioral Health Screening & Assessment">
+            <li class="sidenavlink">Behavioral Health Screening &amp; Assessment</li>
+          </a>
+          <a href="maysi2/index.html" title="MAYSI-2">
+            <li class="sidenavlink">MAYSI-2</li>
+          </a>
+          <a href="juvenilecomp.html" title="Juvenile's Competency to Stand Trial">
+            <li class="sidenavlink">Juveniles' Competency to Stand Trial</li>
+          </a>
+        </ul>
+      </div>
+      <div class="cardblock d-none d-lg-block">
+
+
+        <img class="globe" src="NYSAP-logo.svg" alt="nysap logo">
+      </div>
+    </div>
+    <div class="middlecolumn">
+      <div class="cardblock">
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <h1>&ldquo;We offer flexible solutions for your juvenile justice needs&rdquo;</h1>
+          </div>
+
+          <div class="mySlides">
+            <h1>&ldquo;We have the expertise to meet your training and technical assistance needs&rdquo;</h1>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        <!-- script for slider -->
+        <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+              slideIndex = 1
+            }
+            if (n < 1) {
+              slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+          }
+        </script>
+
+      </div>
+      <div class="cardblock">
+        <h2>About NYSAP</h2>
+        <p>The <strong>National Youth Screening &amp; Assessment Partners (NYSAP)</strong> is a technical assistance and research group, dedicated to helping juvenile justice programs identify youths’ needs for behavioral health intervention and risk
+          management.</p>
+        <p>
+          NYSAP has been working with juvenile justice programs nationwide since 2000. We provide training and implementation technical assistance services to agencies and programs in the areas of risk screening and risk-needs assessment, behavioral
+          health screening (including traumatic events and symptoms), and juveniles’ competence to stand trial evaluations. We also provide many other trainings for various stakeholder groups.
+        </p>
+
+        <div class="accordion" id="accordionExample" style="margin-bottom: 20px;">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <i class="fas fa-plus"></i>&emsp;Our Mission
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>
+                  <strong>NYSAP</strong> assists juvenile justice systems to make decisions about adolescents that are consistent with youths’ health and positive development and with the community’s interests. We do this by helping systems use
+                  reliable, evidence-based methods for screening and assessment. We focus on various decision points in the juvenile justice process—diversion, detention, probation and case management, and judicial decisions.
+                </p>
+                <p>To accomplish this, we use sound research-based methods to assist juvenile justice systems to:</p>
+                <ul>
+                  <li>Select appropriate screening and assessment methods</li>
+                  <li>Develop appropriate policies for their use</li>
+                  <li>Train personnel in those methods and policies, as well as the instrument's use (e.g., case planning) to arrive at appropriate decisions about youth</li>
+                  <li>Assist in development of sustained quality of practice, including quality assurance</li>
+                </ul>
+                <p>NYSAP also performs research of two types:</p>
+                <ol type="a">
+                  <li>development of screening tools and assessment methods for use in various juvenile justice settings, and</li>
+                  <li>evaluation of the impact and value of implementing screening tools and assessment methods in those settings.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>
+          <a href="contact.html" title="Contact">Contact us</a> to inquire about assistance or training from NYSAP on risk screening, risk and needs assessment, behavioral health screening, trauma screening, the MAYSI-2, juvenile competence to stand
+          trial evaluation procedures, or other screening and assessment needs in juvenile justice programs.
+        </p>
+      </div>
+      <div class="cardblock">
+        <h2>States NYSAP has assisted</h2>
+        <figcaption>Click map to expand</figcaption>
+        <img id="myImg" src="home/NYSAPStates.jpg" alt="States NYSAP has Assisted" title="Click to expand map" style="width: 75%; padding: 10px; margin-left: 12.5%; margin-right: 12.5%;">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption">States NYSAP has Assisted</div>
+
+        </div>
+
+        <script>
+          // Get the modal
+          var modal = document.getElementById('myModal');
+
+          // Get the image and insert it inside the modal - use its "alt" text as a caption
+          var img = document.getElementById('myImg');
+          var modalImg = document.getElementById("img01");
+          var captionText = document.getElementById("caption");
+          img.onclick = function() {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+          }
+
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() {
+            modal.style.display = "none";
+          }
+        </script>
+      </div>
+      <!--
+                <div class="cardblock">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Sep 2, 2017</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+             -->
+    </div>
+    <div class="rightcolumn">
+      <div class="cardblock">
+        <h2>Upcoming</h2>
+        <div><a rel="noopener" href="https://mhs.com/info/systemic/" title="Click here to register" target="_blank"><strong>Racist Algorithms or Systemic Problems? Risk Assessments and Race Webinar</strong></a>&nbsp;<small>March 24, 2021</small>
+        </div>
+      </div>
+      <div class="cardblock">
+        <h2>Recently Published</h2>
+        <div class="list-group-flush">
+          <small><a class="list-group-item list-group-item-action" title="click to download" target="_blank" href="https://doi.org/10.1177%2F00938548211008491"><i class="fas fa-external-link-alt"></i>Risk-Need-Responsivity Meets Mental Health: Implementation Challenges in Probation Case Planning (2021)</a></small>
+          <small><a class="list-group-item list-group-item-action" title="click to download" target="_blank" href="https://theconversation.com/prisons-are-not-the-answer-to-preventing-crime-123575"><i class="fas fa-external-link-alt"></i> Prisons are
+              not the answer to preventing crime (2019)</a></small>
+          <small><a class="list-group-item list-group-item-action" title="click to download" target="_blank" href="https://psycnet.apa.org/fulltext/2019-46921-001.html"><i class="fas fa-external-link-alt"></i> Impact of Risk Assessment Instruments on
+              Rates of Pretrial Detention, Postconviction Placements, and Release: A Systematic Review and Meta-Analysis (2019)</a></small>
+
+        </div>
+      </div>
+      <div class="cardblock">
+        <h2>Newsletter</h2>
+        <a type="button" class="btn-block btn-primary" href="http://visitor.r20.constantcontact.com/d.jsp?llr=lnwr6tjab&p=oi&m=1109843827115" title="Click here to subscribe to our newsletter" target="_blank"><i
+            class="fas fa-envelope"></i>&emsp;Subscribe to our newsletter!</a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <img src="home/nysapglobe_sm.png" title="NYSAP globe" alt="NYSAP globe">
+    <p>&copy; 2021 National Youth Screening &amp; Assessment Partners (NYSAP)</p>
+  </div>
+
+  <!-- Javascript for Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
